@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConfigsReader {
 	private static Properties prop;
-
+//SETTER
 	public static void readProperties(String filePath) {
 
 		try {
@@ -22,7 +22,8 @@ public class ConfigsReader {
 		}
 
 	}
-		public static String getProperty(String key) {
+//GETTER
+	public static String getProperty(String key) {
 			return prop.getProperty(key);
 		}
 
